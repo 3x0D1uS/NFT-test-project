@@ -1130,3 +1130,11 @@ section {
         height: 45%;
     }
 }
+
+@media(max-width: 786px) {
+    .digest-wrapper {
+        flex-direction: column;
+        padding: 0;
+        background-color: transparent;
+    }
+}
