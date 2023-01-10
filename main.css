@@ -118,6 +118,12 @@ button.full-color {
     background-position: 25% 50%;
 }
 
+.mail-white {
+    background-image: url(img/mail-white.svg);
+    background-repeat: no-repeat;
+    background-position: 25% 50%; 
+}
+
 .white {
     background-color: white;
     color: var(--main-dark-grey) !important;
@@ -142,7 +148,12 @@ button.full-color {
     .no-tablet {
         display: none;
     }
+
+    .mail-white {
+        background-position: bottom 50% right 63%;
+    }
 }
+
 
 @media(max-width: 546px) {
     button {
@@ -150,7 +161,7 @@ button.full-color {
     }
 
     .rocket, .purple-rocket, .purple-eye {
-        background-position: 30% 45%;
+        background-position: bottom 50% right 60%;
     }
 
     .page-title {
@@ -264,6 +275,10 @@ button.full-color {
 }
 
 @media(max-width: 546px) {
+    .header-container {
+        padding: 15px 30px;
+    }
+
     #menu {
         width: 100%;
     }
@@ -1069,6 +1084,10 @@ section {
     gap: 80px;
 }
 
+.digest-wrapper .subscribe {
+    padding: 19px 50px 19px 82px;
+}
+
 .img-wrapper {
     flex: 0 0 calc(50% - 40px);
     display: flex;
@@ -1128,6 +1147,7 @@ section {
 
     #digest .subscribe {
         height: 45%;
+        padding: 14px 50px 19px 82px;
     }
 }
 
@@ -1137,4 +1157,5 @@ section {
         padding: 0;
         background-color: transparent;
     }
+
 }
